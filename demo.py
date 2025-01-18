@@ -14,4 +14,4 @@ def generate_response(model, tok, question: str):
 # Load the model and tokenizer once
 model_name = "Qwen/Qwen2.5-0.5B-Instruct"
 model  , tok = load_model_and_tokenizer(model_name)
-generate_response(model,tok,"An increasing sequence: one,")
+generate_response(model,tok,"An increasing sequence: one,")# Transformers Demo
